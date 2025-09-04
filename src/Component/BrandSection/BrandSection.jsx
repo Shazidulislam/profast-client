@@ -34,7 +34,7 @@ const BrandSection = () => {
             <img
               src={logo}
               alt={`Brand ${index + 1}`}
-              className="  hover:grayscale-0 transition duration-300"
+              className="hover:grayscale-0 transition duration-300"
             />
           </div>
         ))}

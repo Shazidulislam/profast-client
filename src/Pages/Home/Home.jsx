@@ -3,6 +3,9 @@ import Banner from '../../Component/Banner/Banner';
 import ServicesSection from '../../Component/ServicesSection/ServicesSection';
 import HowItWorks from '../../Component/HowItWorks/HowItWorks';
 import BrandSection from '../../Component/BrandSection/BrandSection';
+import BenefitsSection from '../../Component/BenefitsSection/BenefitsSection';
+import Merchant from '../../Component/Merchant/Merchant';
+import CustomerReview from '../../Component/CustomerReview/CustomerReview';
 
 const Home = () => {
     return (
@@ -11,6 +14,9 @@ const Home = () => {
             <HowItWorks></HowItWorks>
             <ServicesSection></ServicesSection>
             <BrandSection></BrandSection>
+            <BenefitsSection></BenefitsSection>
+            <Merchant></Merchant>
+            <CustomerReview></CustomerReview>
         </div>
     );
 };
